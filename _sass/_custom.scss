@@ -1,0 +1,36 @@
+.date {
+	font-size: 14px;
+	font-weight: bold;
+	font-style: normal;
+}
+
+.category {
+	font-size: smaller;
+	.title {
+		font-weight: bold;
+	}
+}
+
+.postlink {
+	color: $darkerGray;
+	font-weight: bold;
+	font-family: $helveticaNeue;
+	margin: 0;
+	padding: 0;
+	line-height: 1.2;
+	font-size: 24px;
+}
+
+body {
+	font-size: 18px;
+}
+
+.entry {
+	font-size: 16px;
+}
+
+.continue {
+	font-size: smaller;
+	background-color: $lightGray;
+	padding: 2px 4px;
+}
