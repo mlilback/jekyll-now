@@ -4,7 +4,6 @@ layout: default
 
 <div class="posts">
   {% for post in site.posts %}
-  { capture this_year
 	<article class="post">
 
 	<span class="date">{{ post.date | date: "%b %-d %Y" }}</span><br>
