@@ -3,7 +3,7 @@ date: '2017-04-08 10:33:23'
 layout: post
 slug: once-more
 status: publish
-title: Once More
+title: Blogging Once More
 author: mlilback
 authorbio: mlilback
 comments: true
