@@ -3,7 +3,7 @@ date: '2011-03-24 12:49:55'
 layout: post
 slug: omnigraffle-line-endiings
 status: publish
-title: OmniGraffle Line Endiings
+title: OmniGraffle Line Endings
 wordpress_id: '136'
 categories:
 - Software

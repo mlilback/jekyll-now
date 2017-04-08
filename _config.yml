@@ -6,7 +6,7 @@
 name: Mark Lilback
 
 # Short bio or description (displayed in the header)
-description: macOS programmer &amp; gamer
+description: macOS programmer, gamer
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: http://www.gravatar.com/avatar/d0f622051018990eed97e43f67c27962
@@ -85,6 +85,10 @@ gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-paginate
+  - jekyll-readme-index
+
+paginate: 5
+paginate_path: "/blog/page:num/"
 
 # Exclude these files from your production _site
 exclude:
