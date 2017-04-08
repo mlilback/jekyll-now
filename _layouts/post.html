@@ -1,41 +1,25 @@
 ---
 layout: default
 ---
+  {% assign category = site.my_categories | where: "slug", page.category %}
+  {% assign category = category[0] %}
+  {% if category.slug %}
+    {% capture category_content %}{{ category.name }}{% endcapture %}
+  {% endif %}
+
 <article class="post">
   <h1>{{ page.title }}</h1>
 
   <div class="date">
-	Written on {{ page.date | date: "%B %e, %Y" }}
+	Written on {{ page.date | date: "%B %e, %Y at %I:%M %P" }}
+    {% if category_content %}
+    <br><span class="category">Category: {{ category_content }}</span>
+    {% endif %}
+
   </div>
 
 <div class="m-t-3 text-justify">
   {{ content }}
-
-  {% assign category = site.my_categories | where: "slug", page.category %}
-  {% assign category = category[0] %}
-  {% if category.slug %}
-    {% capture category_content %}<a class="label" href="{{ category.url }}" style="background-color:{{ category.color }}">{{ category.name }}</a>{% endcapture %}
-  {% endif %}
-
-  {% if page.tags.size > 0 %}
-  found tags<br>
-    {% capture tags_content %} Tag<span class="icon-price-tag{% if page.tags.size > 1 %}s{% endif %}"></span>: {% endcapture %}
-    {% for post_tag in page.tags %}
-      {% assign tag = site.my_tags | where: "slug", post_tag %}
-      {% if tag %}
-        {% assign tag = tag[0] %}
-        {% capture tags_content_temp %}{{ tags_content }}<a href="{{ tag.url }}">{{ tag.name }}</a>{% if forloop.last == false %}, {% endif %}{% endcapture %}
-        {% assign tags_content = tags_content_temp %}
-      {% endif %}
-    {% endfor %}
-  {% endif %}
-
-    {% if category_content %}
-    <div class="category"><span class="title">Category:</span> {{ category_content }}</div>
-    {% endif %}
-    {% if tags_content %}
-    {{ tags_content }}
-    {% endif %}
 
 </div>
 </article>
