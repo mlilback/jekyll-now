@@ -2,7 +2,7 @@
 date: '2017-04-18 11:41:37'
 layout: post
 slug: last-six-years
-title: Rc&sup2;: Six years and counting
+title: Rc&sup2;&#58; Six years and counting
 author: mlilback
 category: general
 ---
