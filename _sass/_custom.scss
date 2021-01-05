@@ -1,9 +1,11 @@
+/* format the display of the date a post was made */
 .date {
 	font-size: 14px;
 	font-weight: bold;
 	font-style: normal;
 }
 
+/* the listing of what catagory a post belongs to */
 .category {
 	font-size: small;
 	.title {
@@ -11,6 +13,7 @@
 	}
 }
 
+/* used for links to posts */
 .postlink {
 	color: $darkerGray;
 	font-weight: bold;
@@ -25,22 +28,22 @@ body {
 	font-size: 18px;
 }
 
+/* format of a description of an blog entry */
 .entry {
 	font-size: 16px;
 }
 
+/* format of the link to "read more" of an entry */
 .continue {
 	font-size: smaller;
 	background-color: $lightGray;
 	padding: 2px 4px;
 }
 
+/* style for paganiation links at the bottom of the archives page */
 .pagination {
     display: inline-block;
     font-size: smaller;
-}
-
-.pagination {
 	.basic {
 	    color: $black;
 	    float: left;
@@ -91,6 +94,7 @@ body {
   border-top: 0.5px solid black;
 }
 
+/* displays a footnote like a tooltip */
 #footnote_box {
   background: #222;
   font-size: 0.8em;
@@ -102,8 +106,32 @@ body {
   margin: 10px;
 }
 
+/* style for the list of line numbers next to a code listing */
 .lineno {
   padding-right: 6px;
   margin-right: 6px;
   border-right: 1px solid #999;
+}
+
+/* for lists formatted the way we like them */
+.detail li {
+  list-style-type: circle;
+  list-style-position: outside;
+}
+
+/* used for tables that are basically like a definion list, key and value */
+table.defs {
+  margin-top: -1em;
+  border-collapse: separate;
+  border-spacing: 4px;
+  td {
+    margin: 10px;
+    &:nth-child(1) {
+      padding-right: 10px;
+      border-right: 1px solid $medGray;
+    }
+    &:nth-child(2) {
+      padding-left: 10px;
+    }
+  }
 }
