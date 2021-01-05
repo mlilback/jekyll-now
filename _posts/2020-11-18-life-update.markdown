@@ -4,7 +4,7 @@ layout: post
 slug: life-update
 title: An update on my life
 author: mlilback
-category: general
+category: Personal
 ---
 
 A lot of things have happened over the last few years, so I figured I'd go ahead and document them.

@@ -8,7 +8,7 @@ wordpress_id: '165'
 author: mlilback
 authorbio: mlilback
 comments: true
-category: programming
+category: Programming
 tags: [NSUserDefaults, preferences]
 ---
 

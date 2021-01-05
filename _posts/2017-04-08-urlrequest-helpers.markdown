@@ -4,7 +4,9 @@ layout: post
 slug: urlrequest-helpers
 title: URLRequest helpers
 author: mlilback
-category: swift
+category: Programming
+tags:
+- swift
 ---
 
 I was working with sending REST calls to Docker via /var/run/docker.sock and needed to print out the text of the request to send via the file descriptor. This code converts a URLRequest into a CFHTTPMessage and then convert that to a string.

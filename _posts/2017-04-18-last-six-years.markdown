@@ -4,7 +4,7 @@ layout: post
 slug: last-six-years
 title: Rc&sup2;&#58; Six years and counting
 author: mlilback
-category: general
+category: Personal
 ---
 
 I moved to Morgantown, WV in the fall of 2010. With two partners, I started Agile Monks, a software development company. We shipped a couple minor OS X utilities, three iOS apps, and did some consulting work. We finally shut it down in 2016, though it was actually dead well before that.

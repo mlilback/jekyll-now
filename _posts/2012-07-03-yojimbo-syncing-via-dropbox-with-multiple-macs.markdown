@@ -5,8 +5,7 @@ slug: yojimbo-syncing-via-dropbox-with-multiple-macs
 status: publish
 title: Yojimbo syncing via Dropbox with multiple Macs
 wordpress_id: '143'
-categories:
-- Software
+category: Computers
 tags:
 - Dropbox
 - Yojimbo

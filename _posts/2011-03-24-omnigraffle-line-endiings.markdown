@@ -4,9 +4,7 @@ layout: post
 slug: omnigraffle-line-endiings
 status: publish
 title: OmniGraffle Line Endings
-wordpress_id: '136'
-categories:
-- Software
+category: Computers
 tags:
 - AppleScript
 ---

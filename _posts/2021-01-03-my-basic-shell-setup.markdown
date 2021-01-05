@@ -4,7 +4,7 @@ layout: post
 slug: my-basic-shell-setup
 title: My Basic Shell Setup
 author: mlilback
-category: general
+category: Computers
 ---
 
 I started using *nix and programming in the early nineties. There were no helpers around, so I manually learned to do everything by hand. Same with HTML, or anything else on the Internet[^1]. 

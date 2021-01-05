@@ -4,9 +4,7 @@ layout: post
 slug: the-us-founding-fathers-did-not-intend-a-christian-nation
 status: publish
 title: The US founding fathers did not intend a Christian nation
-wordpress_id: '48'
-categories:
-- Politics/Economics
+category: Society
 ---
 
 I’d been working on a similar draft for months, but I don’t think I could have put it any better:

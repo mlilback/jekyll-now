@@ -5,8 +5,7 @@ slug: news-rss-versus-twitter
 status: publish
 title: 'News: RSS versus Twitter'
 wordpress_id: '89'
-categories:
-- Internet
+category: Society
 tags:
 - daring fireball
 - journalism

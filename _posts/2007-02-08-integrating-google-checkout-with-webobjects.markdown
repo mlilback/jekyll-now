@@ -7,6 +7,7 @@ title: Integrating Google Checkout With WebObjects
 wordpress_id: '11'
 categories:
 - Programming
+tags: 
 - WebObjects
 ---
 

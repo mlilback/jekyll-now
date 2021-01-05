@@ -4,11 +4,7 @@ layout: post
 slug: safari-vs-chrome-as-default-browser
 status: publish
 title: Safari vs. Chrome as default browser
-wordpress_id: '141'
-categories:
-- Apple
-- Internet
-- Software
+category: Computers
 tags:
 - browser
 - chrome

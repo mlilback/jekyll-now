@@ -4,7 +4,9 @@ layout: post
 slug: dependency-injection-with-storyboards
 title: Dependency Injection with Storyboards
 author: mlilback
-category: swift
+category: Programming
+tags:
+- swift
 ---
 
 I'd been using [Swinject](https://github.com/Swinject/Swinject) for a while, but was never satisfied. All I need for DI is the ability to inject into ViewControllers, including subclasses. After way too much time trying to add subclass support, it was much simpler to just write my own implementation.

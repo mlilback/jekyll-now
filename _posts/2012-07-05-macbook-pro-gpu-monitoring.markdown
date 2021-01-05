@@ -5,9 +5,7 @@ slug: macbook-pro-gpu-monitoring
 status: publish
 title: MacBook Pro GPU Monitoring
 wordpress_id: '158'
-categories:
-- Apple
-- Software
+category: Computers
 tags:
 - GPU
 - MacBook Pro
