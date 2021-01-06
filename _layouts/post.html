@@ -16,6 +16,10 @@ layout: default
     <br><span class="category">Category: {{ category_content }}</span>
     {% endif %}
 
+	{% if post.tags.size > 0 %}
+	  Tag{% if post.tags.size > 1 %}s{% endif %}:
+	  {{ post.tags | sort | join: ", " }}
+	{% endif %}
   </div>
 
 <div class="m-t-3 text-justify">

@@ -11,12 +11,12 @@
     
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-	{% if page.use_icofont %}<link rel="stylesheet" href="icofont.min.css">{% endif %}
 	<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
 	<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
 	
-	<script type="text/javascript" src="/js/jquery-3.5.1.slim.min.js"></script>
+	<script type="text/javascript" src="/js/jquery-3.5.1.min.js"></script>
 	<script type="text/javascript" src="/js/jquery-inline-footnotes.js"></script>
+	<script type="text/javascript" src="/js/custom.js?d={{ site.time | date: '%s%N' }}" }}"></script>
 	<script type="text/javascript">
 	$(function() {
 		$('.footnote').inlineFootnote({
@@ -43,6 +43,7 @@
 
           <nav>
             <a href="{{ site.baseurl }}/">Blog</a>
+            <a href="{{ site.baseurl }}/categories">Categories</a>
             <a href="{{ site.baseurl }}/about">About</a>
           </nav>
         </header>

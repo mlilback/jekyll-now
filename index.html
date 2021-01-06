@@ -9,7 +9,17 @@ strip_footnotes: true
 
 	<span class="date">{{ post.date | date: "%b %-d %Y" }}</span><br>
 	<span class="postlink"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span>
-
+	<span class="category">
+		{% if post.categories.size > 0 %}
+		<br>
+		  Categor{% if post.categories.size > 1 %}ies{% else %}y{% endif %}:
+		  {{ post.categories | sort | join: ", " }}
+		{% endif %}
+		{% if post.tags.size > 0 %}
+		<br>
+		  Tags: {{ post.tags | sort | join: ", " }}
+		{% endif %}
+	</span>
 		<div class="entry">
 		{{ post.excerpt }}
 		</div>
